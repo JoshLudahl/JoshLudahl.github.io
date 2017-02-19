@@ -92,11 +92,14 @@ header#top {
   list-style-type: none;
 }
 .link-underline a {
-    border-bottom: 3px solid #D9BC45;
-    box-shadow: inset 0 -5px 0 #D9BC45;
+    border-bottom: 2px solid #D9BC45;
+    box-shadow: inset 0 -2px 0 #D9BC45;
     color: inherit;
     transition: background .15s cubic-bezier(.33,.66,.66,1);
-
+  text-decoration: none;
+  display: inline;
+  font-family: sans-serif;
+  color: inherit;
 }
 
 .link-underline a:hover {
